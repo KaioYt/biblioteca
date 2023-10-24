@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap");
+
+body::-webkit-scrollbar {
+    width: 8px;         
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: none;        
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #c7c7c7aa;    
+    border-radius: 20px;      
+    border:  none;  
+  }
+  
+  
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-width: 1600px;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.libs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card{
+    margin: 5px;
+    transition: 0.3s all;
+}
+
+.card:hover{
+    transition: 0.3s all;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
+}
+
+h2{
+    background-color: rgb(0, 183, 255);
+    font-weight: bolder;
+    color: white;
+}
+
+.libs button{
+    background-color: rgb(0, 183, 255);
+    border: none;
+    transition: 0.3s all;
+}
+
+.libs button:hover{
+    transition: 0.3s all;
+    background-color: rgb(1, 168, 234);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+footer {
+    background-color: rgb(0, 183, 255);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
