@@ -7,4 +7,6 @@
 
 ---------------------------------------------------------------------------------------
 
-OBS: Está sendo desenvolvido o pra mobile ainda
+# Como Foi Desenvolvido?
+
+### Para o desenvolvimento foi utlizado a API do Bootstrap, ela agiliza o trabalho e é super facil de manipular... O desenvovimento dessa BIBLIOTECA foi para um trabalho da escola.
